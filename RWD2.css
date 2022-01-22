@@ -1,0 +1,5 @@
+@media (max-width: 767px){
+    header {
+        background-image: url(images/banner_mobile.png);
+    }
+}

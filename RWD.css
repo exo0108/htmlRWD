@@ -1,0 +1,372 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.container{
+    margin:0 auto;
+    width: 1048px;
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+   
+}
+header{
+    color: white;
+    height: 420px;
+    position: relative;
+
+}
+.b2{
+    display: none;
+}
+nav{
+    width: 100%;
+    float: right;
+    margin: 0;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1; 
+    position: absolute;
+}
+
+nav h2{
+    padding: 0 20px 0 50px;
+}
+nav ul{
+    padding: 0 50px 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    display: none;
+}
+nav ul li{
+    font-size: 17px;
+    display: block;
+    margin: 0  0 0 25px;
+}
+header img{
+    width: 100%;
+    z-index: 1;
+} 
+.centertext{
+    z-index: 1; 
+    position: absolute;
+    top:35%;
+    left: 27%;
+    height: 152px;
+    width: 452px;
+    background-color: rgba(0, 0, 0, 0.35);
+    text-align: center;
+}
+
+
+
+
+.bodytxt{
+    margin:0 auto;
+    width: 1048px;
+    
+    background-color: #efe9e7;
+    display:flex;
+    justify-content: center;
+}
+.bodytxt h3{
+    font-size: 20px;
+    text-align: center;
+}
+.bodytxt h4{
+    font-size: 18px;
+    margin-bottom: 16px; 
+    text-align: center;
+    font: inherit;
+}
+.bodytxt p{
+    font-size: 18px;
+    margin-bottom: 16px;
+    text-align: justify;
+    text-justify: auto;
+    line-height: 1.8em;
+    
+} 
+.bodytxt img{
+    padding: 15px 30px 15px 15px;
+   
+} 
+.txt{
+    padding: 15px 70px 15px 30px;
+    color: #3D1101;
+    padding-top:5%;
+    line-height: 1.5em;
+}
+.evaluation{
+    margin:0 auto;
+    width: 1048px;
+    background-color: #3D1101;
+    color: #efe9e7;
+    display:flex;
+    flex-direction: column;
+
+}
+.evaluation h2 p {
+    font: inherit;
+}
+.evaluation h2{
+    margin: 30px 0 30px 30px;
+}
+.evaluation ul{
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+    padding: 0 70px 30px 70px;
+}
+.evaluation img{
+    float: left;
+}
+
+.evaluation li p {
+    font-size: 18px;
+    margin-left: 30%;
+    line-height: 1.8em;
+}
+
+.evaluation li h4 {
+    font-size: 18px;
+    margin-left: 30%;
+    line-height: 1.8em;
+}
+.evaluation li span {
+    font-size: 18px;
+    margin-left: 66%;
+   
+}
+.position{
+    color: #3D1101;
+    background-color: #f6f4f3;
+    margin:0 auto;
+    width: 1048px;
+    display:flex;
+    flex-direction: column;
+}
+.position h3{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    text-align: center;
+    font-size: 25px;
+    
+}
+.position_body {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 8%;
+}
+.position_body img{
+    margin-left: 0%;
+}
+.position_body form{
+    margin-left: 5%;
+}
+.position_body form p{
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.text{
+    width: 400px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button{
+    float: right;
+}
+.btn_cancel{
+    padding: 5px 10px 5px 10px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.35);
+    border:none;
+}
+.btn_send{
+    padding: 5px 10px 5px 10px;
+    color: #fff;
+    background: #F56C23;
+    
+    border:none;
+}
+
+.footer ul{
+    display: flex;
+    list-style: none;}
+
+
+.footer li.about{
+    color: #3D1101;
+    width: 300px;
+    float: left;
+    line-height: 1.3;
+    margin-left: 30px;
+    margin-bottom: 50px;}
+.contact{
+    margin-left:150px ;
+    margin-right: 180px;
+}
+.logo{
+    width: 300px;
+}
+.logo li{
+  margin-top: -10px;
+  margin-right: 6%;
+  
+}
+.logo ul{
+  margin-left: 25%;
+}
+.logo img{
+    border-radius: 5px;
+}
+.footer{
+    background-color: #efe9e7;
+}
+
+@media (max-width: 767px){
+    .bodytxt{
+      
+        flex-direction: column;
+    }
+    .bodytxt img{
+        width: 65%;
+        padding: 30px 100px 30px 190px;
+    }
+    .txt{
+        font-size: 30px;
+        padding: 30px 180px 70px 180px;
+    }
+    .txt h3{
+        font-size: 30px;
+    }
+    .txt h4{
+        font-size: 25px;
+        margin-top: -30px;
+    }
+    .txt p{
+        font-size: 25px;
+    }
+    .evaluation{
+            flex-direction: column;
+    }
+    .evaluation ul{
+        list-style: none;
+        flex-direction: column;
+        padding: 0 70px 30px 70px;
+    }
+    .evaluation img{
+        float: left;
+    }
+    
+    .evaluation li p {
+        font-size: 18px;
+        margin-left: 12%;
+        line-height: 1.8em;
+    }
+    
+    .evaluation li h4 {
+        font-size: 18px;
+        margin-left: 12%;
+        line-height: 1.8em;
+    }
+    .evaluation li span {
+        font-size: 18px;
+        margin-left: 89%;
+       
+    }
+    .position{
+        flex-direction: column;
+    }
+    .position_body{
+        flex-direction: column;
+    }
+    .position_body img{
+        width: 65%;
+        padding: 30px 100px 30px 200px;
+    }
+    .position_body form{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+       
+    }
+    .text {
+        
+        width: 680px;
+        height: 40px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    .pa{
+        margin-right: 2%;
+    }
+    .pp{
+     margin-right: 50%;
+    }
+    .button {
+        margin-left: 55%;
+    }
+    .footer ul{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer li {
+        color: #3D1101;
+        width: 300px;
+        float: left;
+        line-height: 1.3;
+        margin-left: 30px;
+        margin-bottom: 50px;
+        font-size: 30px;
+    }
+    .logo{
+        margin-left: 60%;
+    }
+    .logo ul{
+      flex-direction: row;
+      margin-right: 6%;
+    }
+    .logo ul img{
+        width: 200%;
+       
+ }
+ .b1{
+    display: none;
+ }
+ .b2{
+     display: flex;
+        width: 1048px;
+ }
+ header {
+    color: white;
+    height: 733px;
+    position: relative;
+}
+
+.menu{
+    display: flex;
+    width: 8%;
+}
+nav ul{
+    display: none;
+}
+nav h2 {
+    font-size: 30px;
+    padding: 0 20px 0 50px;
+}
+}
